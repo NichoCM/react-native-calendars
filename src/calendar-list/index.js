@@ -286,7 +286,7 @@ class CalendarList extends Component {
 
   render() {
     return (
-      <View>
+      <View style={{alignSelf: 'baseline'}}>
         <FlatList
           onLayout={this.onLayout}
           ref={(c) => this.listView = c}
